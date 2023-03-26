@@ -28,6 +28,9 @@ function gemsToDiamond(num1, num2, num3){
     if(arguments.length !== 3) {
         return "Please provide 3 numbers as arguments";
     }
+    if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
+        return "Error: Please provide numerical values only.";
+    }
     friendPower1 = 21;
     friendPower2 = 32;
     friendPower3 = 43;
