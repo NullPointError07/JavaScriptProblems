@@ -22,5 +22,6 @@ Output: odd
 function evenOdd (str){
     return str.length %2 === 0 ? "even" : "odd";
 }
+// above function checks whether the string value has even number letters or odd.
 
 console.log(evenOdd("Helloo"));

@@ -28,5 +28,6 @@ function findingBadData(arr){
     }
     return count;  
 }
+// above function checks how many negative numbers in the array then return total negative numbers
 
 console.log(findingBadData([-1, -2, -5]));

@@ -32,4 +32,6 @@ function gemsToDiamond(num1, num2, num3){
     return totalDiamond > 1000*2 ? totalDiamond - 2000 : totalDiamond;
 }
 
+// above function calculates how diamonds one friend can make then returns the totalDiamond they will get according to the condition.
+
 console.log(gemsToDiamond(20,200,50));

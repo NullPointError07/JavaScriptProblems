@@ -14,6 +14,6 @@ Output: -1
 function isLGSeven(num) {
     return num - 7 < 0 ? num - 7 : num * 2;
   }
-  
+// above function checks whether the number is greater or lesser then 7. Then subtracts or multiplies according to the condition.
 
 console.log(isLGSeven(6));

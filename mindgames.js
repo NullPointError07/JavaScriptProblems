@@ -17,9 +17,11 @@ Input: 33
 Output: 49.5
  */
 
-function mindGame (num){
+
+function mindGame (num){ 
     let result = (num*3+10)/2-5;
     return result;
 }
+// above function takes a number as input and return some math calculation of the number
 
 console.log(mindGame(50));
