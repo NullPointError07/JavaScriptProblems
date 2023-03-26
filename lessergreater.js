@@ -12,6 +12,9 @@ Output: -1
 
 
 function isLGSeven(num) {
+    if(isNaN(num)){
+        return "Invalid input! Please enter a number.";
+    }
     return num - 7 < 0 ? num - 7 : num * 2;
   }
 // above function checks whether the number is greater or lesser then 7. Then subtracts or multiplies according to the condition.

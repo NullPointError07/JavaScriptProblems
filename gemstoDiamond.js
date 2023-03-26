@@ -25,6 +25,9 @@ Output: 303
 */
 
 function gemsToDiamond(num1, num2, num3){
+    if(arguments.length !== 3) {
+        return "Please provide 3 numbers as arguments";
+    }
     friendPower1 = 21;
     friendPower2 = 32;
     friendPower3 = 43;
@@ -34,4 +37,4 @@ function gemsToDiamond(num1, num2, num3){
 
 // above function calculates how diamonds one friend can make then returns the totalDiamond they will get according to the condition.
 
-console.log(gemsToDiamond(20,200,50));
+console.log(gemsToDiamond(20,200, 50));
