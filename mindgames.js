@@ -27,4 +27,4 @@ function mindGame (num){
 }
 // above function takes a number as input and return some math calculation of the number
 
-console.log(mindGame("50"));
+console.log(mindGame(50));
