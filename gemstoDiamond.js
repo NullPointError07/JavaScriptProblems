@@ -29,7 +29,7 @@ function gemsToDiamond(num1, num2, num3){
     friendPower2 = 32;
     friendPower3 = 43;
     totalDiamond = num1*friendPower1+num2*friendPower2+num3*friendPower3;
-    return totalDiamond > 2000 ? totalDiamond - 2000 : totalDiamond;
+    return totalDiamond > 1000*2 ? totalDiamond - 2000 : totalDiamond;
 }
 
 console.log(gemsToDiamond(20,200,50));
